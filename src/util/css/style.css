@@ -1,0 +1,21 @@
+.super{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.about-super{
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/*---------*/
+.card:hover {
+    transition-duration: 0.5s;
+    opacity: 0.8;
+}
+
