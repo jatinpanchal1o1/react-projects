@@ -1,0 +1,124 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  color: #11142D;
+  border-bottom: 1px solid #E2E2EA;
+}
+
+.rightSide {
+  margin-left: 1rem;
+}
+
+.leftSide {
+  margin-right: 1rem;
+}
+
+.profileSide {
+  list-style: none;
+  display: flex;
+}
+
+.profileSide > li {
+  margin-left: 1rem;
+}
+
+.icon {
+  padding-top: 8px;
+  cursor: pointer;
+}
+
+.bell_icon {
+  padding-top: 1em;
+  padding-right: 1em;
+  padding-left: 0;
+}
+
+#accountName {
+  text-align: start;
+  line-height: 0.2;
+}
+
+@font-face {
+  font-family: "Mulish-black";
+  src: url("../assets/mulish-cufonfonts/Mulish-Black.ttf");
+}
+.account_name {
+  font-family: Mulish-black;
+}
+
+@font-face {
+  font-family: "Mulish-ExtraLight";
+  src: url("../assets/mulish-cufonfonts/Mulish-ExtraLight.ttf");
+}
+.account_type {
+  font-family: Mulish-ExtraLight;
+  font-size: 12px;
+}
+
+.rightSide {
+  display: flex;
+}
+
+.rightSide a {
+  padding-top: 24px;
+}
+
+.rightSide h2 {
+  padding-top: 10px;
+  margin-left: 1rem;
+}
+
+.Sidebar {
+  background-color: white;
+  width: 110px;
+  border-right: 1px solid #E2E2EA;
+  height: auto;
+  justify-content: space-between;
+}
+
+.topSide {
+  width: 5rem;
+}
+
+.topList {
+  margin: 0 !important;
+  padding-top: 20px;
+  padding-left: 25px;
+  text-align: start;
+  list-style: none;
+}
+
+.topList li {
+  cursor: pointer;
+  padding: 12px;
+  padding-left: 13px;
+}
+
+.topList li:hover {
+  background-color: #5541D7;
+  border-radius: 6px;
+}
+
+.bottomSide {
+  width: 5rem;
+}
+
+.bottomList {
+  margin: 0 !important;
+  padding-top: 20px;
+  padding-left: 25px;
+  text-align: start;
+  list-style: none;
+}
+
+.bottomList li {
+  cursor: pointer;
+  padding: 12px;
+  padding-left: 13px;
+}
+
+.bottomList li:hover {
+  background-color: #5541D7;
+  border-radius: 6px;
+}/*# sourceMappingURL=style.css.map */
